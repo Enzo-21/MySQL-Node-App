@@ -1,0 +1,109 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.title {
+  border: none;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  color: white;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2841cc+0,7db9e8+100 */
+  background: #2841cc;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #2841cc 0%, #7db9e8 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2841cc', endColorstr='#7db9e8',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.d-flex button {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.form {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1em;
+  margin: 1rem 20rem;
+  position: relative;
+}
+
+.form div input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.form .break {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 0;
+}
+
+.form .submit-btn {
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+}
+
+.form .submit-btn input {
+  border: none;
+}
+
+.d-none {
+  display: none;
+}
+
+.cancel-btn {
+  background-color: rgba(255, 0, 0, 0.486);
+  color: white;
+  border: none;
+}
+
+.cancel-btn:hover {
+  background-color: red;
+}
+
+.animate-btn {
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.animate-btn:hover {
+  -webkit-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.18);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.student-li {
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=styles.css.map */

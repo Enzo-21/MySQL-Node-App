@@ -5,17 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
     <title>MySQL</title>
 </head>
 
 <body>
-    <h1>Estudiates</h1>
-    <div id="estudiantes">
-        
+    <div class="wrapper title">
+        <h1 class="d-flex">Estudiantes DWFS Online-5</h1>
+    </div>
+
+    <div id="estudiantes" class="d-flex"></div>
+
+    <div class="d-flex">
+        <button class="animate-btn" id="add-student">Agregar Estudiante</button>
+    </div>
+
+    <form action="" class="d-flex form wrapper d-none">
+        <div> Nombre: <br>
+            <input type="text" name="firstname" placeholder="Nombre del alumno">
+        </div>
+        <div> Apellido:<br>
+            <input type="text" name="lastname" placeholder="Apellido del alumno"></div>
+        <div> Nota:<br>
+            <input type="number" name="score"></div>
+
+        <div class="break"></div>
+        <button class="submit-btn ">
+            <input type="submit" value="Agregar a la lista">
+        </button>
+    </form>
+
+    <div class="d-flex">
+            <button class="cancel-btn d-none animate-btn">
+                    Cancelar
+                </button>
     </div>
     
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="estudiantes.js"></script>
+
+    
 </body>
 
 </html>
