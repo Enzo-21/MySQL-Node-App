@@ -27,5 +27,3 @@ app.get('/estudiantes', (req, res)=> {
         }
     })
 })
-
-// ;
